@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #161513;
+  color: #c5c5c5;
+}
+a {
+  text-decoration: none;
+}
+header {
+  background-color: #222;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto;
+}
+.logo img {
+  width: 80px;
+}
+.navbar {
+  display: flex;
+}
+.navbar div {
+  padding: 30px 20px;
+}
+.navbar a {
+  color: #fff;
+}
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+.avatar img {
+  width: 251px;
+}
+.about {
+  text-align: center;
+}
+.about-text {
+  width: 652px;
+  margin: 30px auto;
+}
+.about-text h1 {
+  font-size: 55px;
+  line-height: 1;
+  color: #fff;
+}
+.about-text h1 > span {
+  background: var(
+    --Primary-Gradient,
+    linear-gradient(116deg, #ff8660 71.79%, #9a33ff 95.51%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about-text p {
+  font-size: 18px;
+  margin-top: 30px;
+}
+.about-btn {
+  margin-top: 30px;
+}
+.btn-primary {
+  width: 195px;
+  height: 64px;
+  border-radius: 50px;
+  border: 1px solid var(--Primary-Color, #fff);
+  background: linear-gradient(
+      0deg,
+      var(--Primary-Color, #fff) 0%,
+      var(--Primary-Color, #fff) 100%
+    ),
+    var(--Primary-Color, #fff);
+  font-size: 22px;
+  margin-right: 20px;
+}
+.btn-secondary {
+  width: 195px;
+  height: 64px;
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  font-size: 22px;
+  color: #fff;
+}
+.experience-with {
+  text-align: center;
+}
+
+.experience-with h2 {
+  font-size: 20px;
+}
+.experience-with-lang {
+  display: flex;
+  width: 500px;
+  margin: 50px auto;
+  justify-content: space-between;
+}
+.experience-with-lang img {
+  width: 42px;
+  cursor: pointer;
+}
+.primary-heading {
+  text-align: center;
+  font-size: 35px;
+}
+.heading-project {
+  background: var(
+    --Orange-Gradient,
+    linear-gradient(180deg, #ff8660 0%, #d5491d 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.projects {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+.project-item {
+  background: #2a2a2a;
+  margin: 20px;
+  border-radius: 18px 18px 0 0;
+}
+.project-item img {
+  width: 100%;
+  border-radius: 18px 18px 0 0;
+}
+.project-title {
+  padding: 15px;
+}
+.project-title h3 {
+  color: #fff;
+}
+
+.heading-experience {
+  background: var(
+    --Blue-Gradient,
+    linear-gradient(180deg, #5badff 0%, #1373d1 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.experience-item {
+  padding: 30px 0;
+}
+.experience-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.experience-title-container .date {
+  margin-left: auto;
+}
+.experience-title {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+footer {
+  background-color: #191919;
+}
+footer h2 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+footer p {
+  font-size: 15px;
+}
+.email-container {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.email-container img {
+  margin-right: 10px;
+}
+
+.social-links {
+  display: flex;
+  margin-top: 40px;
+}
+.social-links img {
+  margin-right: 20px;
+}
